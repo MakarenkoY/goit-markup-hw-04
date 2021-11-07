@@ -4,6 +4,8 @@
         /* header */
 .header-style{
     background-color :#ffffff;
+    border-bottom: 1px solid #ECECEC;
+
 }
 .logo{
     font-family: 'Raleway';
@@ -14,7 +16,6 @@
     font-weight: 700;
     text-decoration:none;
     margin-right: 93px;
-    padding-left: 15px;
     }
 .web{
     color: #2196F3;
@@ -201,6 +202,9 @@
     text-align: center;
     width: 1200px;
 }
+.foto-style{
+    margin-right: 30px;
+}
         /*  Наша команда*/
 .back-col{
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -213,8 +217,6 @@
     text-align: center;
     margin-left: auto;
     margin-right: auto;
-    padding-left: 15px;
-    padding-right: 15px;
 }
 .style-comand{
     display: inline-flex;
@@ -294,10 +296,6 @@
 .section{
     padding: 94px 0;
 }
-.client-company-pozition{
-    width: 1200px;
-    padding: 0px;
-}
 .style-client-text{
     color: #212121;
     font-family: 'Roboto';
@@ -311,31 +309,35 @@
     padding-bottom: 50px;
     text-align: center;
 }
-    
-/* .client-company{
-    display:inline-block;
-    content: '';
+.client-pozition{
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+}
+.client-item{
     width: 170px;
     height: 92px;
-    background-repeat: no-repeat;
-    background-color: #F5F4FA;
-    background-position: center;
-    border-radius: 4px;
+    display: inline-flex;
+    margin-right: 30px;
+}
+.social-icon-client{
+    width: 170px;
+    height: 92px;
+    fill: #AFB1B8;
     border: 1px solid #AFB1B8;
     box-sizing: border-box;
+    border-radius: 4px; 
     text-align: center;
-    justify-content: space-between;
-    margin-right: 30px;
-    flex-basis: auto;
+    padding-top: 23px;
+    padding-bottom: 16px;
+    padding-left: 32px;
+    padding-right: 32px;
+    cursor: pointer;
 }
-.client-company:last-child{
-    margin-right: 0px;
-}
-.client-com-color:hover{
-    background-color: #2196F3;
-} */
-
-
+.social-icon-client:hover{
+    border-color: #2196F3;
+    fill: #2196F3;
+}  
         /* footer */
 
 .footer-logo{
@@ -346,7 +348,16 @@
     line-height: 1.19;
     font-weight: 700;
     text-decoration:none;
-    margin-left: 200px;
+}
+.logo-f{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    font-weight: 700;
+    text-decoration:none;
+
 }
 .web-footer{
     color: #2196F3;
@@ -395,6 +406,56 @@
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
 }
+.footer-social-link{
+    margin: -107px;
+}
+.footer-list-text{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+    margin-right: 418px;
+}
+.footer-list{
+    display: flex;
+    justify-content: center;
+    margin-right: 90px;
+}
+.footer-item{
+    width: 44px;
+    height: 44px;
+    margin-right: 10px;
+}
+.footer-item:last-child{
+    margin-right: 0px;
+}
+.footer-icon{
+    fill: #ffffff;
+}
+.footer-link{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+.footer-link:hover,
+.footer-link:focus{
+    background: #2196F3;
+}
+.footer-link:hover .social-icon,
+.footer-link:focus .social-icon {
+    fill: #ffffff;
+}
+        /* Portfolio */
 .style-link-col{
     color: #2196f3;
     display: block;
@@ -411,7 +472,6 @@
     line-height: 1.62;
     text-align: center;
     letter-spacing: 0.03em; 
-    border-top: 1px solid #ECECEC;
 }
 .style-text-detail{
     font-family: 'Roboto';
@@ -439,10 +499,10 @@
 }
 .container-nav{
     width: 1200px;
-    margin-top: 24px;
-    margin-bottom: 25px;
-    margin-left: 200px;
-    margin-right: 400px;
+    height: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
     display: flex;
     align-items: center;
 }
@@ -469,13 +529,9 @@
     justify-content:space-evenly;
     flex-wrap: wrap;
     padding-bottom: 94px;   
-    margin-left: 215px;
-    margin-right: 215px;
 }
 .adres-footer{
     padding-top: 20px;
-    padding-left: 15px;
-    margin-left: 200px;
 }
 .footer-adress{
 padding-bottom: 9px;
@@ -486,6 +542,7 @@ padding-top: 20px;
 }
 .btn-por{
     display:flex;
+    justify-content: center;
 }
 .button-portfo-1:hover{
     background-color:#2196F3;
