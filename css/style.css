@@ -118,7 +118,6 @@
     color:#757575;
 }
 .style-kontakts-t{
-    color:#757575;
     display: block;
     margin-left: 30px;
 }
@@ -126,15 +125,24 @@
     display: block;
     margin-left: 305px;
 }
-.style-kontakts:hover{
-    color: #2196f3;
-}
+.style-kontakts:hover,
 .style-kontakts:focus{
     color: #2196f3;
 }
-.social-icon-footer{
+.social-icon-header{
     margin-right: 10px;
     fill: #757575;
+}
+.style-kontakts:hover .social-icon-header,
+.style-kontakts:focus .social-icon-header {
+    border-color: #2196F3;
+    fill: #2196F3;
+}
+.social-icon-header:focus,
+.social-icon-header:hover{
+    border-color: #2196F3;
+    fill: #2196F3;
+    cursor: pointer;
 }
             /* Shapka */
 .zakaz-style{
