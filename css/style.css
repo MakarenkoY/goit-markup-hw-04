@@ -17,6 +17,14 @@
     padding-left: 15px;
     padding-right: 15px;
 }
+.container-zanatya{
+    width: 1200px;
+    margin-left: 215px;
+    margin-right: 215px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 94px;
+}
 .conteiner-style{
     width: 1200px;
     display: flex;
