@@ -18,13 +18,13 @@
                 <a href="index.html" class="logo">
                     <span class="web">Web</span><span class="studio">Studio</span></a>
                 <ul class="style-link list">
-                    <li class="style-link-col list"><a href="index.html" class="style-link list">Студия</a></li>
-                    <li class="style-link-col list"><a href="portfolio.html" class="style-link-c list">Портфолио</a></li>
-                    <li class="style-link-col list"><a href="" class="style-link list">Контакты</a></li>
+                    <li class="style-link-col list"><a class="style-link list" href="index.html">Студия</a></li>
+                    <li class="style-link-col list"><a class="style-link-p curent list" href="portfolio.html">Портфолио</a></li>
+                    <li class="style-link-col list"><a class="style-link list" href="">Контакты</a></li>
                 </ul>
                 <ul class="style-kontakt list">
                     <li class="style-kontakts-e">   
-                        <a href="mailto:info@devstudio.com"class="style-kontakts list">
+                        <a href="mailto:info@devstudio.com" class="style-kontakts list">
                         <svg class="social-icon-header" 
                         width="16" 
                         height="12">
@@ -45,7 +45,7 @@
             </nav>
     </header>
     <main>
-        <section class="container list">
+        <section class="container">
             <div class="container-potf-btn">
             <ul class="btn-por list">
                     <li class="button-style-portf"><button type="button" class="button-portfo-1">Все</button></li>
@@ -59,13 +59,16 @@
         <section class="container-portf-card">
             <ul class="conteiner-style-portf">
                     <li class="foto-porto-style list">
-                        <img src="./images/notebok.jpg"
-                        alt="notebok"
-                        width="370"
-                        height="294"/>
+                        <div class="text-card-pozition">
+                            <img src="./images/notebok.jpg"
+                            alt="notebok"
+                            width="370"
+                            height="294"/>
+                            <p class="text-card">Технокряк это современная<br>площадка распространения<br>коронавируса. Компании<br>используют эту платформу для<br>цифрового шпионажа и атак на<br>защищённые сервера конкурентов.</p>
+                        </div>
                         <div class="style-portf-text">
-                        <h3 class="style-text-detail">Технокряк</h3>
-                        <p class="style-text-detail-info">Веб-сайт</p>
+                            <h3 class="style-text-detail">Технокряк</h3>
+                            <p class="style-text-detail-info">Веб-сайт</p>
                         </div>
                     </li>
                     <li class="foto-porto-style list">
@@ -151,66 +154,68 @@
                 </ul>
         </section>
     </main>
-    <footer class="footer-style">
-        <div class="container footer-logo">
-            <a href="index.html" class="logo-f">
-            <span class="web">Web</span><span class="studio-footer">Studio</span></a>
-            </a>    
-        </div>
-            <address class="adres-footer">
-                <div class="container">
-            <a class="footer-adress list" href="https://www.google.com/maps/place/%D0%B1%D1%83%D0%BB.+%D0%9B%D0%B5%D1%81%D0%B8+%D0%A3%D0%BA%D1%80%D0%B0%D0%B8%D0%BD%D0%BA%D0%B8,+26,+%D0%9A%D0%B8%D0%B5%D0%B2,+02000/@50.4265807,30.5361971,17z/data=!3m1!4b1!4m5!3m4!1s0x40d4cf0e033ecbe9:0x57a4dffefec77da0!8m2!3d50.4265807!4d30.5383858?hl=ru">
-            г. Киев, пр-т Леси Украинки, 26</a>
-            <ul class="list">
-                <li><a class="footer-kontakt list" href="tel:+380961111111">+38 096 111 11 11</a></li>
-                <li><a class="footer-kontakt list" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-            </ul>
-            <div class="footer-social-link">
-                        <h3 class="footer-list-text list">ПРИСОЕДИНЯЙТЕСЬ</h3>
-                <ul class="footer-social list footer-list">
-                    <li class="footer-item">
-                        <a href="" class="footer-link">
-                            <svg class="footer-icon" 
-                            width="20" 
-                            height="20">
-                            <use href="./images/sprite.svg#icon-instagram"></use>
-                        </svg>    
-                    </a>
-                </li>
-                <ul class="footer-social list footer-list">
-                    <li class="footer-item">
-                        <a href="" class="footer-link">
-                            <svg class="footer-icon" 
-                            width="20" 
-                            height="20">
-                            <use href="./images/sprite.svg#icon-twitter"></use>
-                            </svg>    
-                        </a>
-                    </li>
-                    <ul class="footer-social list footer-list">
-                        <li class="footer-item">
-                        <a href="" class="footer-link">
-                            <svg class="footer-icon" 
-                                width="20" 
-                                height="20">
-                                <use href="./images/sprite.svg#icon-facebook"></use>
-                                </svg>    
-                            </a>
-                    </li>
-                    <ul class="footer-social list footer-list">
-                    <li class="footer-item">
-                        <a href="" class="footer-link">
-                            <svg class="footer-icon" 
-                                width="20" 
-                                height="20">
-                                <use href="./images/sprite.svg#icon-linkedin"></use>
-                                </svg>    
-                                </a>
-                            </li>
-                        </div>
-        </div>
-            </address>
-            
-</footer>
-</body>
+                            <!-- Footer portf -->
+<footer class="footer-style">
+    <div class="container footer-logo">
+    <a href="index.html" class="logo-f">
+    <span class="web">Web</span><span class="studio-footer">Studio</span></a>
+    </a>
+                                </div>
+                                    <address class="adres-footer">
+                                        <div class="container">
+                                    <a class="footer-adress list" href="https://www.google.com/maps/place/%D0%B1%D1%83%D0%BB.+%D0%9B%D0%B5%D1%81%D0%B8+%D0%A3%D0%BA%D1%80%D0%B0%D0%B8%D0%BD%D0%BA%D0%B8,+26,+%D0%9A%D0%B8%D0%B5%D0%B2,+02000/@50.4265807,30.5361971,17z/data=!3m1!4b1!4m5!3m4!1s0x40d4cf0e033ecbe9:0x57a4dffefec77da0!8m2!3d50.4265807!4d30.5383858?hl=ru">
+                                    г. Киев, пр-т Леси Украинки, 26</a>
+                                    <ul class="list">
+                                        <li><a class="footer-kontakt list" href="tel:+380961111111">+38 096 111 11 11</a></li>
+                                        <li><a class="footer-kontakt list" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+                                    </ul>
+                                    <div class="footer-social-link">
+                                                <h3 class="footer-list-text list">ПРИСОЕДИНЯЙТЕСЬ</h3>
+                                        <ul class="footer-social list footer-list">
+                                            <li class="footer-item">
+                                                <a href="" class="footer-link">
+                                                    <svg class="footer-icon" 
+                                                    width="20" 
+                                                    height="20">
+                                                    <use href="./images/sprite.svg#icon-instagram"></use>
+                                                </svg>    
+                                            </a>
+                                        </li>
+                                        <ul class="footer-social list footer-list">
+                                            <li class="footer-item">
+                                                <a href="" class="footer-link">
+                                                    <svg class="footer-icon" 
+                                                    width="20" 
+                                                    height="20">
+                                                    <use href="./images/sprite.svg#icon-twitter"></use>
+                                                    </svg>    
+                                                </a>
+                                            </li>
+                                            <ul class="footer-social list footer-list">
+                                                <li class="footer-item">
+                                                <a href="" class="footer-link">
+                                                    <svg class="footer-icon" 
+                                                        width="20" 
+                        height="20">
+                                                        <use href="./images/sprite.svg#icon-facebook"></use>
+                                                        </svg>    
+                                                    </a>
+                                            </li>
+                                            <ul class="footer-social list footer-list">
+                                            <li class="footer-item">
+                                                <a href="" class="footer-link">
+                                                    <svg class="footer-icon" 
+                                                        width="20" 
+                                                        height="20">
+                                                        <use href="./images/sprite.svg#icon-linkedin"></use>
+                                                        </svg>    
+                                                        </a>
+                                                    </li>
+                                                </div>
+                                </div>
+                                    </address>
+                                    
+                        </footer>
+
+    </body>
 </html>
