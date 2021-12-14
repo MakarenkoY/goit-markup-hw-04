@@ -111,10 +111,10 @@
 .style-link:focus{
     color: #2196F3;
 }
-/* .style-link-c{
+.style-link-c{
     color: #2196F3;
 }
-.style-link-c.curent::after{
+/* .style-link-c.curent::after{
     content: '';
     position: absolute;
     width: 48px;
@@ -123,11 +123,11 @@
     top: 76px;
     background: #2196F3;
     border-radius: 2px;
-}
+} */
 .style-link-p{
     color: #2196F3;
 }
-.style-link-p.curent::after{
+/* .style-link-p.curent::after{
     content: '';
     position: absolute;
     width: 78px;
